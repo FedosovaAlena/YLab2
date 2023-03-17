@@ -23,7 +23,6 @@ public class SnilsValidatorImpl implements SnilsValidator {
                 control = mod_sum;
             }
         }
-
         int contol_snils = Integer.valueOf(snils.substring(9));
         if (contol_snils == control) {
             return true;
