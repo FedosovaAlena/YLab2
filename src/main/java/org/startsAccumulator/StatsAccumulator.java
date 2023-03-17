@@ -28,7 +28,6 @@ public interface StatsAccumulator {
      * @return количество добавленных чисел
      */
     int getCount();
-
     /**
      * Возвращает среднее арифметическое всех добавленных чисел
      *

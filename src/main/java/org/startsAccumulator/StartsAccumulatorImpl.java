@@ -13,7 +13,6 @@ public class StartsAccumulatorImpl implements StatsAccumulator {
         cache.put(number, value);
         number++;
     }
-
     @Override
     public int getMin() {
         return Collections.min(cache.values());

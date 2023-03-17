@@ -99,7 +99,6 @@ public class SequencesImpl implements Sequences {
         }
         System.out.println();
     }
-
     @Override
     public void h(int n) {
         System.out.print("H. ");

@@ -3,7 +3,6 @@ package org.sequences;
 public interface Sequences {
     /**
      * Выводит в консоль n первых членов последовательности A
-     *
      * @param n число членов последовательности для вывода
      */
     void a(int n);

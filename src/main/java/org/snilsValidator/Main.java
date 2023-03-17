@@ -9,6 +9,5 @@ public class Main {
         } else {
             System.out.println("Ваш СНИЛС невалидный");
         }
-
     }
 }

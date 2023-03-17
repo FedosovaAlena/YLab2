@@ -9,7 +9,6 @@ public class RateLimitedPrinter {
     int interval;
     long oldTime = System.currentTimeMillis();
     String mess;
-
     public RateLimitedPrinter(int interval) {
         this.interval = interval;
     }
@@ -23,8 +22,6 @@ public class RateLimitedPrinter {
             System.out.println(sdf.format(calendar.getTime()));
             oldTime=currentTime;
         }
-
-
     }
 
 

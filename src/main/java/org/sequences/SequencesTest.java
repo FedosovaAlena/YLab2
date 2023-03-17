@@ -1,7 +1,6 @@
 package org.sequences;
 
 import java.util.Scanner;
-
 public class SequencesTest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

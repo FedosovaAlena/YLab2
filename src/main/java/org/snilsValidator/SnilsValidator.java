@@ -8,5 +8,4 @@ public interface SnilsValidator {
      * @return результат проверки
      */
     boolean validate(String snils);
-
 }
